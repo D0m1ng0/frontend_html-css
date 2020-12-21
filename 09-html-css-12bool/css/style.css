@@ -1,0 +1,23 @@
+/* mie regole di stile */
+
+body {
+  background-color: pink;
+}
+
+/* stile prima riga del main */
+main .container .col-1{
+  line-height: 20px;
+}
+
+/* stile del footer */
+ footer > .container {
+  padding: 10px;
+  /* debug */
+  /* background-color: green; */
+}
+footer .container .col-2,
+footer .container .col-8,
+footer .container .col-6 {
+  border: solid 1px white;
+  background-color: rgb(235, 157, 136);
+}

@@ -1,0 +1,262 @@
+/* proprietà di stile generali */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+/* /Proprietà di stile generali */
+
+/* wrapper */
+#wrapper {
+  width: 100%;
+  height: 100vh;
+}
+#wrapper {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+main {
+  height: calc(100% - 90px);
+  overflow: hidden;
+}
+
+.side-left button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+    transition: all 0.2s ease 0s;
+}
+.side-left button:hover{
+  color: white;
+}
+.side-left-central button i {
+  font-size: 1em;
+  color: black;
+  background-color: grey;
+  padding: 7px;
+}
+
+.side-left a, .side-left li{
+  color: grey;
+  transition: all 0.2s ease 0s;
+}
+.side-left a:hover, .side-left li:hover  {
+  color: white;
+}
+
+.side-left {
+  float: left;
+  width:232px;
+  min-height: 480px;
+  height: 100%;
+  background-color: black;
+  color: white;
+  /* debug */
+  /* border: solid 2px red; */
+}
+.side-left-container-flex {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.side-left-top {
+  /* debug */
+  /* border: solid 1px red; */
+  /* PROBLEMA */
+  justify-content: start;
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+}
+.Home img, .Search img, .Library img, .logo .logo-small {
+  width: 25px;
+  height: auto;
+}
+
+.side-left-central {
+  height: 80%;
+  /* debug */
+  /* border: solid 1px red; */
+}
+
+.side-left-central {
+  /* PROBLEMA */
+  overflow-y: auto;
+}
+
+.side-left-bottom {
+  /* debug */
+  /* border: solid 1px red; */
+  /* PROBLEMA */
+  justify-content: flex-end;
+}
+
+.side-left-bottom-install {
+  /* debug */
+  /* border: solid 1px red; */
+}
+.side-left-bottom-user img {
+  height: 15px;
+  width: auto;
+}
+
+
+.side-right {
+  float: left;
+  width:calc(100% - 232px);
+  height: 100%;
+  background-color: #141821;
+  overflow-y: auto;
+  overflow-x: hidden;
+  /* debug */
+  /* border: solid 1px red; */
+}
+
+.header-bar {
+  background-color: black;
+  width: 100%;
+  height: 90px;
+}
+
+.header-bar button {
+  float: right;
+  border: solid 1px white;
+  border-radius: 25px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-right: 5px;
+  transition: all 0.2s ease 0s;
+  background-color: black;
+  color: white;
+}
+.header-bar button:hover {
+  padding: 12px;
+  opacity: 0.5;
+}
+
+.container-flex-options {
+  display: flex;
+  justify-content: center;
+}
+
+.container-flex-catalog h4, .container-flex-catalog h2 {
+  color: white;
+}
+.container-flex-catalog h3, .container-flex-catalog h5 {
+  color: grey;
+}
+
+.container-flex-catalog {
+  display: flex;
+  flex-direction: column;
+}
+
+.recent-container-flex, .targetted-container-flex, .popular-container-flex {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.container-flex-catalog img {
+  width: 250px;
+  height: 250px;
+}
+
+
+/* footer */
+footer {
+  height: 90px;
+  background-color: #212020;
+  color: grey;
+}
+footer li {
+  display: inline-block;
+}
+footer a {
+  color: grey;
+}
+footer button {
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  color: grey;
+  font-family: 'Montserrat', sans-serif;
+  transition: all 0.2s ease 0s;
+}
+footer i {
+  transition: all 0.2s ease 0s;
+}
+footer i:hover {
+  color: white;
+}
+
+.footer-container-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.player-left {
+  /* debug */
+  /* border: solid 1px red; */
+}
+.player-left-container-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.player-left-album, .player-left-choices {
+  display: inline-block;
+}
+
+.player-left ul {
+  list-style-type: none;
+}
+
+.player-central {
+  /* debug */
+  /* border: solid 1px red; */
+}
+.player-central-container-flex {
+  display: flex;
+  justify-content: center;
+  direction-flex: column;
+  justify-content: central;
+}
+
+
+.player-right {
+  /* debug */
+  /* border: solid 1px red; */
+}
+.player-right-container-flex {
+  display: flex;
+  align-items: center;
+}
+
+footer img {
+  height: 50px;
+  width: auto;
+}
+/* /footer */

@@ -1,0 +1,140 @@
+/* proprietà generali */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Sfondo */
+body {
+  background-image: url("../img/sfondo.png");
+  background-repeat: repeat;
+}
+
+/* contenitore globale */
+#contenitore {
+  width: 70%;
+  margin: 10px auto;
+}
+
+/* proprietà header */
+header {
+  height: 310px;
+  width: 100%;
+  margin-bottom: 1%;
+  /* debug */
+  /* background-color: yellow; */
+}
+.header-presentazione {
+  height: 280px;
+  width: 100%;
+  border: solid 5px white;
+  background-image: url("../img/header-immagine.jpg");
+  position: relative;
+}
+.header-logo {
+  padding: 1%;
+  font-size: 3em;
+  text-align: center;
+  border: solid 3px white;
+  position: absolute;
+  top: 30%;
+  right: 50%;
+  transform: translateX(50%);
+  color: white;
+}
+.header-sottotitolo {
+  font-size: 1em;
+  text-align: center;
+  position: absolute;
+  bottom: 20%;
+  right: 50%;
+  transform: translateX(50%);
+  color: white;
+}
+.navbar-menu {
+  background-color: grey;
+  width: 100%;
+  /* debug */
+  height: 30px;
+  font-size: 0.9em;
+  text-align: center;
+  color: white;
+}
+.navbar-menu li {
+  display: inline-block;
+  margin: 5px;
+}
+
+/* proprietà di una sezione in clearfix */
+#sezione-contenitore::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* proprietà della sezione contenitore */
+#sezione-contenitore {
+  margin-bottom: 1%;
+}
+
+/* proprietà colonna destra, sinistra */
+.sinistra, .destra {
+  float:left;
+  background-color: white;
+  border-radius: 10px;
+  padding:1%;
+  /* debug */
+  /* height: 200px; */
+}
+.sinistra {
+  width: 20%;
+}
+.destra {
+  width: 30%;
+  background-color: transparent;
+  padding: 0;
+}
+/* proprietà colonna centrale */
+.centrale {
+  float:left;
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 1%;
+  /* debug */
+  /* height: 300px; */
+}
+
+/* proprietà contenuti colonna sinistra, colonna destra */
+.sinistra img {
+  float: left;
+  height: 40px;
+  width: 55px;
+}
+.blocco-destra {
+  width: 100%;
+  padding-left: 1%;
+  margin-bottom: 5px;
+  background-color: white;
+  border-radius: 10px;
+  /* debug */
+  /* height: 90px; */
+}
+
+/* footer */
+footer{
+  height: 100px;
+  background-color: white;
+  border-radius: 10px;
+  padding:1%;
+  /* debug */
+}
+#footer-riferimenti {
+  height: 20px;
+  border-bottom: solid 1px black;
+  text-align: center;
+  color: grey;
+}

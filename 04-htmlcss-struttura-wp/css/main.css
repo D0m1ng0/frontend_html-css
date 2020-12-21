@@ -1,0 +1,69 @@
+/* proprietà generali */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* debug */
+  margin: 10px;
+}
+
+/* proprietà header */
+header {
+  height: 200px;
+  width: 100%;
+  /* debug */
+  background-color: yellow;
+}
+
+/* proprietà di una sezione in clearfix */
+#sezione-contenitore::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* proprietà di una colonna classe di appoggio */
+.colonna {
+}
+
+/* proprietà colonna destra, sinistra */
+.sinistra, .destra {
+  float:left;
+  /* debug */
+  background-color: pink;
+  height: 200px;
+}
+.sinistra {
+  width: 20%;
+}
+.destra {
+  width: 30%;
+}
+/* proprietà colonna centrale */
+.centrale {
+  float:left;
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  /* debug */
+  background-color: violet;
+  height: 300px;
+}
+
+/* proprietà  */
+.blocco-destra {
+  margin-bottom: 5px;
+  /* debug */
+  background-color: grey;
+  height: 90px;
+}
+
+/* footer */
+footer{
+  height: 100px;
+  /* debug */
+  background-color: rgb(26, 193, 172);
+}

@@ -1,0 +1,26 @@
+body * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(251, 206, 4);
+}
+
+#normal-navbar .logo {
+  width: 180px;
+  height: auto;
+}
+
+section {
+  background-color: yellow;
+}
+
+.to-inline p, a {
+  display: inline-block;
+}
+
+footer {
+  background-color: grey;
+}

@@ -1,0 +1,103 @@
+/* BONUS: CAMBIA IL CURSORE QUANDO IL MOUSE VA SOPRA IL BOTTONE "VAI" */
+
+/* proprietà di stile CSS */
+
+/* proprietà generali */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* proprietà del body */
+body{
+  background-image: url('../img/sfondo.jpg');
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/* proprietà dell'header */
+#header-gmail {
+  color: white;
+  font-family: 'Jost', sans-serif;
+
+}
+/* proprietà del logo */
+#logo{
+  height: 100px;
+  vertical-align: middle;
+
+}
+
+/* blocco conteggio */
+#blocco-conteggio {
+  padding: 8px 0px;
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+  border-color: white;
+}
+/* blocco ricerca */
+#blocco-ricerca {
+}
+.bottone {
+  width: 30px;
+  cursor: pointer;
+}
+
+/* blocco contatore */
+#blocco-contatore {
+  margin-top: 5px;
+  font-size: 25px;
+  color: white;
+}
+#contatore {
+  display: inline-block;
+  padding: 10px;
+  background-color: orange;
+  border-radius: 50px;
+  text-align: center;
+}
+
+/* propetà del main */
+main {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-top: solid 1px black;
+    border-right: solid 1px black;
+    border-left: solid 1px black;
+}
+/* mail */
+.mail {
+  border-bottom: solid 1px black;
+  background-color: rgb(181, 178, 177);
+
+  padding: 5px;
+}
+.favoriti {
+}
+.oggetto {
+}
+.contenuto {
+  color: grey;
+  text-size: 30px;
+}
+.mail.mail-non-letta{
+}
+.mail.mail-letta {
+  background-color: rgb(230, 219, 209);
+}
+/* footer */
+footer {
+  padding: 5px;
+  color: white;
+  border-top: solid 1px white;
+  font-family: 'Jost', sans-serif;
+  text-align: center;
+  font-size: 40px;
+}
+.scritta-grande {
+  font-size: 20px;
+}
+.scritta-piccola {
+  font-size: 12px;
+}

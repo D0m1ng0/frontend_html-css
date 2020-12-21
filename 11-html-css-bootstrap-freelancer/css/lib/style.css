@@ -1,0 +1,11 @@
+c.row {
+}
+
+[class*="col-"] {
+  height: 100%;
+  /* debug */
+  /* height: 50px; */
+  /* background-color: rgba(249, 75, 29, 0.51); */
+  border: solid 1px black;
+  /* height: 500px; */
+}

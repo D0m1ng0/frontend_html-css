@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* debug */
+  /* background-color: #212529; */
+  background-color: #1abb9c;
+
+}
+
+/* debug */
+header {
+}
+main {
+  /* background-color: white; */
+}
+
+h1 {
+  font-style: white;
+
+}
+section {
+  margin: 20px  0;
+}
+
+footer {
+  background-color: #2c3e50;
+}
+
+.text-center {
+  color: white;
+}
+/* /debug */
+#jumbo .container .row .col-xs-12 {
+  background-color: #1abb9c;
+  /* align-items: left; */
+}
+#jumbo img {
+    width: 255px;
+    height: auto;
+}
+
+
+#portfolio {
+  /* background-color: red; */
+  align-items: center;
+
+}
+#portfolio .container .row .portfolio-options img {
+  width: 250px;
+  height: auto;
+}
+
+#about {
+  /* background-color: rgb(17, 215, 195); */
+}
+
+#contact [class*="col-"] {
+  /* background-color: white; */
+  /* height: auto; */
+}
+#contact .text-center {
+  color: black;
+}
+#contact .btn-default {
+  /* color: green; */
+}
+
+footer img {
+  width: 50px;
+  height: auto;
+}

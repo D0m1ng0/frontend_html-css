@@ -1,0 +1,238 @@
+/* proprietà generali */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* proprietà header */
+header {
+  height: 624px;
+  width: 100%;
+
+  background-image: url("../img/jumbotron.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* debug */
+  /* background-color: green; */
+}
+
+.header-box-menu {
+  margin: 0 auto;
+  margin-bottom: 1%;
+  /* height: 15%; */
+  width: 68%;
+  border: solid 1px black;
+  /* debug*/
+  /* background-color: rgb(134, 233, 236); */
+}
+
+.header-box-menu.fissato {
+  position: fixed;
+  top: 0;
+  right: 16%;
+  z-index: 2;
+  background-color: rgba(134, 233, 236,0.25);
+  height: 15%;
+}
+.header-box-menu.traslato {
+  position: relative;
+  bottom: -11%;
+  z-index: 1;
+  background-color: rgb(194, 232, 237);
+  height: 12%;
+}
+
+
+.menu-list li {
+  display: inline-block;
+}
+.menu-ul .menu {
+  display: inline-block;
+}
+.menu {
+  display: inline-block;
+}
+.menu-left {
+  float: left;
+}
+.menu-right {
+  float: right;
+}
+.header-box-menu::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.menu .logo{
+  display: inline-block;
+  /* background-color: red; */
+}
+
+.search-bar {
+  display: inline-block;
+}
+
+
+#jumbo {
+  margin: 0 auto;
+  width: 68%;
+  border: solid 1px black;
+  position: relative;
+  bottom: -8%;
+  height: 77%
+
+
+  /* height: 77.2%;
+  background-image: url("../img/jumbotron.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; */
+  /* debug */
+  /* margin: 1% auto;
+  height: 23%;
+  width: 90%;
+  background-color: orange; */
+}
+
+.jumbo-button {
+  position: relative;
+  bottom: -160px;
+
+}
+.bottone {
+  display: block;
+  background-color: rgb(242, 106, 39);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/* /proprietà header */
+
+
+/* proprietà main */
+main {
+  /* debug */
+  /* height: 2500px;
+  width: 100%; */
+  background-color: grey;
+}
+
+.formato-box {
+  margin: 0 auto;
+  margin-bottom: 1%;
+  /* height: 15%; */
+  width: 68%;
+  border: solid 1px black;
+  /* debug*/
+  /* background-color: rgb(134, 233, 236); */
+}
+#sezione1 {
+  /* debug */
+  margin: 1% auto;
+  width: 100%;
+  height: 600px;
+  background-color: azure;
+}
+.sezione1-riga, .sezione2-riga, .sezione3-riga {
+  margin: 1% auto;
+  width: 68%;
+  height: 30%;
+  background-color: white;
+  border: solid 1px black;
+  position: relative;
+}
+
+#cubo {
+  height: 45%;
+  width: 16%;
+  background-image: url("../img/cube.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  right: -50%;
+  transform: translateX(-50%);
+  /* debug */
+  border: solid 1px black;
+}
+
+.sotto-sezione1-riga {
+  height: 40%;
+  width: 50%;
+  position: relative;
+  right: -50%;
+  transform: translateX(-50%);
+  /* debug */
+  border: solid 1px black;
+  text-align: center;
+}
+
+.sezione1-riga::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.colonna1, .colonna2, .colonna3 {
+  float: left;
+  /* debug */
+  margin: 0 5%;
+  height: 200px;
+  width: 23%;
+  border: solid 1px black;
+  background-color: grey;
+}
+
+
+
+#sezione2 {
+  /* debug */
+  margin: 1% auto;
+  width: 100%;
+  height: 600px;
+  background-color: rgb(23, 208, 152);
+}
+
+#sezione3 {
+  /* debug */
+  margin: 1% auto;
+  width: 100%;
+  height: 600px;
+  background-color: azure;
+}
+.sezione3-riga {
+  /* debugs */
+  background-color: white;
+  border: solid 1px black;
+}
+
+}
+/* /proprietà main */
+
+
+/* proprietà footer */
+footer {
+  /* debug */
+  /* height: 500px;
+  width: 100%; */
+  background-color: black;
+  /* color: rgb(173, 32, 53); */
+}
+.footer-riga {
+  margin: 1% auto;
+  height: 200px;
+  width: 68%;
+  /* debug */
+  background-color: black;
+}
+
+/* /proprietà footer */

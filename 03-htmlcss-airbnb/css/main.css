@@ -1,0 +1,67 @@
+/* proprietà generali  */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* proprietà del contenitore vetrina */
+.vetrina {
+  /* debug */
+  /* background-color: yellow;
+  width: 100%; */
+
+}
+
+/* proprietà del contenitore città, classe di appoggio */
+.citta {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+}
+
+/* proprità prima città, relativamente al primo ontenitore */
+.prima {
+  background-image: url('../img/roma.jpg');
+}
+
+/* proprità seconda  città, relativamente al secondo ontenitore */
+.seconda {
+  background-image: url('../img/copenaghen.jpg');
+}
+
+/* proprità terza città, relativamente al terzo ontenitore */
+.terza {
+  background-image: url('../img/tokyo.jpg');
+}
+
+/* prorietà del mone città  */
+.nome-citta {
+  text-align: center;
+  font-size: 5em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-shadow: 5px 5px 5px #1d1b1b;
+  color: black;
+}
+
+/* filtro opaco di layover sulla viewport */
+.layover {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.citta:hover .layover {
+  cursor: pointer;
+  background-color: rgba(127,190,196,0.7);
+}
+
+.citta:hover .layover {
+  cursor: pointer;
+  background-color: rgba(127,190,196,0.7);
+}

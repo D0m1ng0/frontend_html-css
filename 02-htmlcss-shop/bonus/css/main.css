@@ -1,0 +1,74 @@
+/* BONUS: aggiunta di una casella di acquisto*/
+
+/* proprietà generali */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: grey;
+}
+
+/* contenitore globale */
+#contenitore {
+  margin: 5px auto;
+  width: 918px;
+  /* debug */
+  /* background-color: grey;
+  border: solid 1px black; */
+}
+
+/* riga dei prodotti */
+.riga-prodotti {
+  margin-bottom: 10px;
+  /* debug */
+  /* border: solid 1px red; */
+}
+
+img {
+  height: 400px;
+  width: 300px;
+}
+.prodotto {
+  display: inline-block;
+  position: relative;
+  /* debug */
+  /* border: solid 1px black; */
+}
+
+.indice-sconto {
+  background-color: green;
+  width: 30px;
+  height: 16px;
+  position: absolute;
+  top:0;
+  right: 0;
+}
+.indice-sconto.rosso{
+  background-color: red;
+}
+
+.cuore {
+  display: none;
+  position: absolute;
+  bottom: 2px;
+  right: 50%;
+  color: red;
+}
+.prodotto:hover .cuore {
+  display: block;
+  cursor: pointer;
+}
+
+.tasto-compra {
+  display: none;
+  position: absolute;
+  top:0;
+  left: 0;
+}
+.prodotto:hover .tasto-compra {
+  display: block;
+  cursor: pointer;
+}

@@ -1,0 +1,35 @@
+/* Foglio di stile vero e proprio */
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* proprietà colonne */
+[class*="col-"] {
+  height: 300px;
+  text-align: center;
+  padding: 20px;
+  /* debug */
+  /* line-height: 170px;
+  border: solid 1px black;
+  background-color: yellow; */
+}
+h1 {
+  text-align: center;
+}
+h3 {
+  margin: 20px;
+}
+img {
+  width: 200px;
+  height: 150px;
+}
+
+.im-riga-3, .im-riga-4, .im-riga-5 {
+  border-radius: 50%;
+  background-color:rgb(101, 216, 242);
+  padding: 10px;
+
+}

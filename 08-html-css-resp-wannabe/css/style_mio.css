@@ -1,0 +1,25 @@
+/* proprietà responsive aggiuntive */
+
+/* per dimesimensioni al di sotto di 235px e non uguale*/
+@media screen and (max-width: 419px) {
+  .row {
+    width: 100%;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin-top: 1%;
+    /* debug */
+    /* border: solid 2px red; */
+  }
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 100%;
+    float: left;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: left;
+    width: 100%;
+  }
+}

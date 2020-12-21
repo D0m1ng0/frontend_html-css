@@ -1,0 +1,30 @@
+/* proprietà generali */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* proprietà elementi navbar */
+
+header {
+  background-color: green;
+  width: 100%;
+  height: 300px;
+}
+
+.inline-menu li {
+  display: inline-block;
+}
+.header-nav .logo {
+  display: inline-block;
+  width: 17%;
+  background-color: red;
+}
+
+.header-nav .header-menu {
+  display: inline-block;
+  width: 75%;
+  background-color: blue;
+}
